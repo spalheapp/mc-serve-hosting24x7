@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm install",
-    "start": "node server.js"
+    "start": "nohup java -Xmx1024M -Xms1024M -jar server.jar nogui"
   },
   "repository": {
     "type": "git",
