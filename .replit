@@ -1,6 +1,5 @@
 language = "java10"
-run = "node server.js"
+run = "nohup java -Xmx1024M -Xms1024M -jar server.jar nogui"
 
-#Use node server.js for 24/7 hosting
-#Use java -Xmx1024M -Xms1024M -jar server.jar nogui for temporary hosting with no interface
-#Use java -Xmx1024M -Xms1024M -jar server.jar for temporary hosting with GUI
+#Use nohup java -Xmx1024M -Xms1024M -jar server.jar nogui  for hosting with no interface.
+#Use nohup java -Xmx1024M -Xms1024M -jar server.jar for hosting with GUI but slower than nogui.
