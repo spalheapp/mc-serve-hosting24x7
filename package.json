@@ -1,0 +1,37 @@
+{
+  "name": "minecraft-server-24x7",
+  "version": "1.0.0",
+  "description": "Host MineCraft server on repl.it for free 24/7!",
+  "main": "server.jar",
+  "dependencies": {
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "public": "^0.1.5",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navaneethkm004/mc-server-hosting-24x7.git"
+  },
+  "keywords": [
+    "minecraft",
+    "minecraft server",
+    "mc",
+    "server",
+    "free",
+    "host",
+    "247",
+    "java"
+  ],
+  "author": "Navaneeth K M",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/navaneethkm004/mc-server-hosting-24x7/issues"
+  },
+  "homepage": "https://github.com/navaneethkm004/mc-server-hosting-24x7#readme"
+}

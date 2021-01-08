@@ -1,0 +1,5 @@
+run = "node server.js"
+
+#Use node server.js for 24/7 hosting
+#Use java -Xmx1024M -Xms1024M -jar server.jar nogui for temporary hosting with no interface
+#Use java -Xmx1024M -Xms1024M -jar server.jar for temporary hosting with GUI
