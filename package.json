@@ -1,6 +1,6 @@
 {
   "name": "minecraft-server-24x7",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Host MineCraft server on repl.it for free 24/7!",
   "main": "server.jar",
   "dependencies": {
@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm install",
-    "start": "nohup java -Xmx1024M -Xms1024M -jar server.jar nogui"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 language = "java10"
-run = "nohup java -Xmx1024M -Xms1024M -jar server.jar nogui"
+run = "npm i && node server.js"
 
 #Use nohup java -Xmx1024M -Xms1024M -jar server.jar nogui  for hosting with no interface.
 #Use nohup java -Xmx1024M -Xms1024M -jar server.jar for hosting with GUI but slower than nogui.

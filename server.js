@@ -8,12 +8,12 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  https.get(`https://mc.nkmrepl.repl.co`);
+  https.get('');//put the .co link generated in repl here
 }, 1);
 
 var shell = require('shelljs');
   
-shell.exec('nohup java -Xmx1024M -Xms1024M -jar server.jar nogui &')
+shell.exec('nohup java -Xmx1024M -Xms1024M -jar server.jar nogui')
 
-//Use nohup java -Xmx1024M -Xms1024M -jar server.jar nogui & for temporary hosting with no interface. 
-//Use nohup java -Xmx1024M -Xms1024M -jar server.jar & for temporary hosting with GUI. Can have errors and can make the server slower compared to "nogui".
+//Use nohup java -Xmx1024M -Xms1024M -jar server.jar nogui & for hosting with no interface. 
+//Use nohup java -Xmx1024M -Xms1024M -jar server.jar for hosting with GUI. Can have errors and can make the server slower compared to "nogui".
