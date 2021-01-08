@@ -7,7 +7,6 @@
 ## What's this?
 This project is based on Minecraft Server version 1.16.4 jar file. No need to download it from [here](https://www.minecraft.net/en-us/download/server) if the present Minecraft Server version is 1.16.4.
 
-[Try now!](https://repos.navaneethkm004.com/mc-server-hosting-24x7/)
 [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/mc-server-hosting-24x7)](https://repl.it/github/navaneethkm004/mc-server-hosting-24x7)
 
 ## Author
