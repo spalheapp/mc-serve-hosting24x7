@@ -1,3 +1,4 @@
+language = "java10"
 run = "node server.js"
 
 #Use node server.js for 24/7 hosting
