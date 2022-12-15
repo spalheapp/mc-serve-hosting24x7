@@ -4,7 +4,7 @@
   "description": "Host MineCraft server on repl.it for free 24/7!",
   "main": "server.jar",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "https": "^1.0.0",
     "public": "^0.1.5",
     "shelljs": "^0.8.4"
